@@ -1,0 +1,436 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+   <script type="importmap">
+     {
+       "imports": {
+         "@material/web/": "https://esm.run/@material/web/"
+       }
+     }
+   </script>
+   <script type="module">
+     import '@material/web/all.js';
+     import {styles as typescaleStyles} from '@material/web/typography/md-typescale-styles.js';
+ 
+     document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
+   </script>
+   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="style.css">
+  
+</head>
+<body>
+   <div class="cursor" id="cursor"></div>
+<!--design starts here-->
+
+<div class="nav">
+   <md-icon-button><svg class="navicon" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 50 50" fill="White">
+   <path d="M 5 8 A 2.0002 2.0002 0 1 0 5 12 L 45 12 A 2.0002 2.0002 0 1 0 45 8 L 5 8 z M 5 23 A 2.0002 2.0002 0 1 0 5 27 L 45 27 A 2.0002 2.0002 0 1 0 45 23 L 5 23 z M 5 38 A 2.0002 2.0002 0 1 0 5 42 L 45 42 A 2.0002 2.0002 0 1 0 45 38 L 5 38 z"></path>
+   </svg></md-icon-button>
+       <h2 id="title">ASD Engine</h2>
+</div>
+<div id="content">
+   <div class="text">
+       <h1>ASD <span id="pro">Engine</span>. Epic. Inside out.</h1>
+       <p class="hdes">No breaks, all awesome. Craft epic reverses with<br>ASD Engine's magical tools.</p>
+   </div>
+  <div id="box">
+     <md-filled-button>Get Started</md-filled-button>
+     <md-outlined-button>View Docs</md-outlined-button>
+  </div>
+</div>
+<button popovertarget="my-div">click</button>
+<div id="my-div" popover>
+   <div>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Architecto debitis, ex natus aut at pariatur culpa! Pariatur, tenetur inventore rem consequuntur nihil officia, maxime debitis nesciunt quidem deleniti, fugit hic!</div>
+   <div>Repellendus libero quisquam atque voluptatum, sequi ex pariatur. Saepe possimus ducimus eius voluptates, aperiam nobis recusandae voluptatem cupiditate quos facilis explicabo minima molestiae necessitatibus quasi nisi, adipisci fugiat laborum eligendi?</div>
+   <div>Quidem sint officiis illum temporibus quae distinctio, neque nihil officia dolore maiores quas nesciunt debitis odio voluptate molestias libero numquam reiciendis natus dolores iste modi dolorem voluptatibus ducimus. Provident, repudiandae?</div>
+   <div>Accusamus tempore adipisci aut excepturi consequuntur nihil eaque, in quibusdam praesentium expedita illo impedit numquam explicabo nobis distinctio at sapiente dolores ducimus vitae non. Ea voluptate cum, voluptates repellat voluptas.</div>
+   <div>Praesentium dignissimos, architecto eum similique optio perspiciatis eveniet voluptates quos fugit minima itaque consequuntur sunt vitae ducimus repellendus ad molestias porro, dolores! Commodi est earum, id possimus nulla blanditiis sequi.</div>
+</div>
+<!--video intro here-->
+<div class="vbac">
+   <video width="100%" poster="thumbnailv.jpg" autoplay muted>
+     <source src="introv.webm" type="video/webm">
+     Your browser does not support HTML video.
+   </video>
+   </div>
+   <!--video intro here-->
+ <div class="cc">
+   <div class="toptextcon">
+      <h3>What's new</h3>
+      <p class="ttext">22 Dec, 2025</p>
+      <p id="hhy">Chrome is built to work with your device across platforms. That means a smooth experience on whatever you're working with. Chrome is built to work with your device across platforms. That means a smooth experience on whatever you're working with.</p>
+   </div>
+
+   <h2 class="cf">Core Features</h2>
+   <div class="gridcon">
+   <div class="topics-grid">
+         <div class="titem">
+            <div class="t-text">
+               <div class="t-text2">
+            <h2 class="i1">
+               Multi-file edits
+            </h2>
+            <p class="i2">
+               Describe what you want to build in natural language, and Copilot Edits takes care of the rest. Copilot Edits makes changes across files in your codebase with a UI designed for rapid iteration. It's the fastest way to add new functionality to your apps.
+            </p>
+            <md-outlined-button>Learn More</md-outlined-button>
+            </div>
+            </div>
+            <div class="iicon">
+              <img src="ip3.png" class="ii">
+            </div>
+         </div>
+         <div class="titem">
+            <div class="t-text">
+               <div class="t-text2">
+            <h2 class="i1">
+               Code suggestions
+            </h2>
+            <p class="i2">
+               Describe what you want to build in natural language, and Copilot Edits takes care of the rest. Copilot Edits makes changes across files in your codebase with a UI designed for rapid iteration. It's the fastest way to add new functionality to your apps.</p>
+               <md-outlined-button>Learn More</md-outlined-button>
+               </div>
+            </div>
+            <div class="iicon">
+              <img src="ip4.png" class="ii">
+            </div>
+         </div>
+         <div class="titem">
+            <div class="t-text">
+               <div class="t-text2">
+            <h2 class="i1">
+               Code Suggestion
+            </h2>
+            <p class="i2">
+               Describe what you want to build in natural language, and Copilot Edits takes care of the rest. Copilot Edits makes changes across files in your codebase with a UI designed for rapid iteration. It's the fastest way to add new functionality to your apps.
+            </p>
+            <md-outlined-button>Learn More</md-outlined-button>
+            </div>
+            </div>
+            <div class="iicon">
+              <img src="ip6.png" class="ii">
+            </div>
+         </div>
+         <div class="titem">
+            <div class="t-text">
+               <div class="t-text2">
+            <h2 class="i1">
+               Code suggestions6
+            </h2>
+            <p class="i2">
+               Describe what you want to build in natural language, and Copilot Edits takes care of the rest. Copilot Edits makes changes across files in your codebase with a UI designed for rapid iteration. It's the fastest way to add new functionality to your apps.
+            </p>
+            <md-outlined-button>Learn More</md-outlined-button>
+            </div>
+            </div>
+            <div class="iicon">
+              <img src="ip5.png" class="ii">
+            </div>
+      </div>
+      <div class="titem">
+            <div class="t-text">
+               <div class="t-text2">
+            <h2 class="i1">
+               Code suggestions
+            </h2>
+            <p class="i2">
+               Describe what you want to build in natural language, and Copilot Edits takes care of the rest. Copilot Edits makes changes across files in your codebase with a UI designed for rapid iteration. It's the fastest way to add new functionality to your apps.
+            </p>
+            <md-outlined-button>Learn More</md-outlined-button>
+            </div>
+            </div>
+            <div class="iicon">
+              <img src="ip8.png" class="ii">
+            </div>
+      </div>
+      </div>
+   </div>
+   <!--system req-->
+
+   <h2 class="cf">System Requirements</h2>
+   <div class="recon">
+      <div class="srgrid">
+         
+         <div class="sritem">
+          <div class="flex">
+            <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Category</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         <div class="sritem">
+     <div class="flex">
+            <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Required OS</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         <div class="sritem">
+     <div class="flex">
+            <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Platform</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         <div class="sritem">
+     <div class="flex">
+            <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Api Level</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         <div class="sritem">
+     <div class="flex">
+            <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Ram</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         <div class="sritem">
+           <div class="flex">
+     <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Terminal</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         <div class="sritem">
+     <div class="flex">
+            <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Integrated</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         <div class="sritem">
+     <div class="flex">
+            <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Integrated</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         <div class="sritem">
+     <div class="flex">
+            <div class="imgcon">
+               <svg class="icon" xmlns="http://www.w3.org/2000/svg" height="24px" viewBox="0 -960 960 960" width="24px" fill="#e3e3e3"><path d="M280-400q-33 0-56.5-23.5T200-480q0-33 23.5-56.5T280-560q33 0 56.5 23.5T360-480q0 33-23.5 56.5T280-400Zm0 160q-100 0-170-70T40-480q0-100 70-170t170-70q67 0 121.5 33t86.5 87h352l120 120-180 180-80-60-80 60-85-60h-47q-32 54-86.5 87T280-240Zm0-80q56 0 98.5-34t56.5-86h125l58 41 82-61 71 55 75-75-40-40H435q-14-52-56.5-86T280-640q-66 0-113 47t-47 113q0 66 47 113t113 47Z"/></svg>
+            </div>
+            <h3 class="srtitle">Integrated</h3>
+         </div>
+            <p class="srdes">built-in support for git and many others source control providers</p>
+         </div>
+         
+      </div>
+   </div>
+
+   <div class="unk">
+      <h1>The mental health app for every moment</h1>
+  <div class="toggle-btns" id="tabs">
+     <input type="radio" id="option1" name="options" checked>
+     <label for="option1" data-index="0">Guided meditations</label>
+     
+     <input type="radio" id="option2" name="options">
+     <label for="option2" data-index="1">Ai guidance</label>
+     
+     <input type="radio" id="option3" name="options">
+     <label for="option3" data-index="2">Ai guidance</label>
+     
+     <input type="radio" id="option4" name="options">
+     <label for="option4" data-index="3">Ai guidance</label>
+     
+     <input type="radio" id="option5" name="options">
+     <label for="option5" data-index="4">Ai guidance</label>
+  </div>
+  <div class="slider-wrapper" id="sliderWrapper">
+     <div class="slider" id="slider">
+        <div class="slide">Slide 1</div>
+        <div class="slide">Slide 2</div>
+        <div class="slide">Slide 3</div>
+        <div class="slide">Slide 4</div>
+        <div class="slide">Slide 5</div>
+     </div>
+  </div>
+  <div class="controls">
+     <span id="indicator">1/5</span>
+     <button id="prevBtn"><img src="images/arrow-prev.svg"></button>
+     <button id="nextBtn"><img src="images/arrow-next.svg"></button>
+  </div>
+  
+   </div>
+   <div class="betacon2">
+     
+      <h1 class="fp">FREE<br>PALESTINE</h1>
+      <code>#savehumanity</code>
+   </div>
+   
+   <div class="betacon">
+      <svg xmlns="http://www.w3.org/2000/svg" width="92" height="92" fill="none"><path fill="#000" d="M91.827 47.828c-6.035 0-11.61-1.143-16.915-3.396-5.309-2.327-9.991-5.498-13.917-9.424-3.926-3.926-7.097-8.608-9.424-13.916-2.254-5.307-3.396-10.883-3.396-16.919a.173.173 0 1 0-.347 0c0 6.035-1.179 11.61-3.506 16.919-2.254 5.308-5.387 9.99-9.314 13.916-3.925 3.926-8.608 7.097-13.915 9.423-5.307 2.254-10.884 3.397-16.92 3.397a.173.173 0 1 0 0 .347c6.034 0 11.611 1.18 16.92 3.506 5.308 2.256 9.99 5.39 13.915 9.314 3.927 3.927 7.06 8.609 9.315 13.918 2.326 5.306 3.505 10.88 3.505 16.914a.173.173 0 1 0 .347 0c0-6.036 1.142-11.61 3.396-16.914 2.327-5.31 5.497-9.992 9.424-13.918 3.925-3.926 8.606-7.06 13.917-9.314 5.306-2.326 10.881-3.506 16.915-3.506a.173.173 0 1 0 0-.347Z"/><path fill="url(#a)" d="M91.827 47.828c-6.035 0-11.61-1.143-16.915-3.396-5.309-2.327-9.991-5.498-13.917-9.424-3.926-3.926-7.097-8.608-9.424-13.916-2.254-5.307-3.396-10.883-3.396-16.919a.173.173 0 1 0-.347 0c0 6.035-1.179 11.61-3.506 16.919-2.254 5.308-5.387 9.99-9.314 13.916-3.925 3.926-8.608 7.097-13.915 9.423-5.307 2.254-10.884 3.397-16.92 3.397a.173.173 0 1 0 0 .347c6.034 0 11.611 1.18 16.92 3.506 5.308 2.256 9.99 5.39 13.915 9.314 3.927 3.927 7.06 8.609 9.315 13.918 2.326 5.306 3.505 10.88 3.505 16.914a.173.173 0 1 0 .347 0c0-6.036 1.142-11.61 3.396-16.914 2.327-5.31 5.497-9.992 9.424-13.918 3.925-3.926 8.606-7.06 13.917-9.314 5.306-2.326 10.881-3.506 16.915-3.506a.173.173 0 1 0 0-.347Z"/><defs><linearGradient id="a" x1="31.388" x2="71.196" y1="60.882" y2="27.319" gradientUnits="userSpaceOnUse"><stop stop-color="#217BFE"/><stop offset=".27" stop-color="#078EFB"/><stop offset=".777" stop-color="#A190FF"/><stop offset="1" stop-color="#BD99FE"/></linearGradient></defs></svg>
+      <h2 class="ttt">Boost your productivity with Gemini in ASD Engine</h2>
+      <md-outlined-button>Join Beta</md-outlined-button>
+   </div>
+   
+   <!--quote-->
+   <div class="quotecon">
+      <div class="icc0">
+         <img class="icc" src="https://images.ctfassets.net/v3n26e09qg2r/7LgQ7zE5yihhzCv7O8Y7tS/acedfbf85e4c9274fb039d9743827955/Frame_370079.svg?fm=&w=256&q=75">
+      </div>
+      <div class="icc1">
+         <img class="icc" src="https://images.ctfassets.net/v3n26e09qg2r/3qlhNseKA1PPalC9VWD0N5/110fa32dd9b02ff104a32a0cb29abd9b/Star_1.svg?fm=&w=96&q=75">
+      </div>
+      <div class="icc2">
+         <img class="icc" src="https://images.ctfassets.net/v3n26e09qg2r/3Dp0lvdbRnwgVHMJUSRi4f/965460f68159391c0cc183573adc2ffe/Star_2.svg?fm=&w=96&q=75">
+      </div>
+      <div class="icc3">
+         <img class="icc" src="https://images.ctfassets.net/v3n26e09qg2r/5I07KGvCgkzdRg3rJk4rGC/c0f43cf2b6d02079f06b35c446c0b0a8/Frame_370079__2_.svg?fm=&w=384&q=75">
+      </div>
+      <div class="icc4">
+         <img class="icc" src="https://images.ctfassets.net/v3n26e09qg2r/39KMTXVV6PAELlOvSkUiz3/2faef5ae1b57854fba62dcf75dad901b/Frame_370346.svg?fm=&w=256&q=75">
+      </div>
+      <div class="icc5">
+         <img class="icc" src="https://images.ctfassets.net/v3n26e09qg2r/76SbyP15xRQimqjFf78YSg/bb3cc8b3464d8d7a9ef100b1c352d65d/Frame_370079__1_.svg?fm=&w=256&q=75">
+      </div>
+      <h2 id="idnai">Members are enjoying happier and healthier lives</h2>
+   </div>
+   <!--quote-->
+    <div class="as1">
+       <img src="seo.webp" width="100%">
+       <h1>Frequently asked questions</h1>
+       <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, distinctio modi quia?</p>
+    </div>
+       <!--uyggyg-->
+       <div class="faqcon">
+         <div class="faq">
+        <h2 class="h2">Frequently asked questions</h2>
+       <div class="faq-item">
+     
+        <input type="checkbox" id="op1" name="options">
+        <label for="op1">What is Headspace?</label>
+        <div class="faq-content">
+        <p>This is an example of faq item content. It will be shown when one item clicked. This is an example of faq item content. It will be shown when one item clicked lorem3 and tte and the whole thing is it possible to implement the same thing as a team leader and they are not</p>
+        </div>
+       </div><hr>
+     
+       <div class="faq-item">
+        <input type="checkbox" id="op2" name="options">
+        <label for="op2">What is Headspace's mission?</label>
+        <div class="faq-content">
+        <p>This is an example of faq item content. It will be shown when one item clicked. This is an example of faq item content. It will be shown when one item clicked</p>
+        </div>
+       </div><hr>
+     
+       <div class="faq-item">
+        <input type="checkbox" id="op3" name="options">
+        <label for="op3">How do I download the Headspace app?</label>
+        <div class="faq-content">
+        <p>This is an example of faq item content. It will be shown when one item clicked. This is an example of faq item content. It will be shown when one item clicked</p>
+        </div>
+       </div><hr>
+     
+       <div class="faq-item">
+        <input type="checkbox" id="op4" name="options">
+        <label for="op4">What is included in a Headspace app subscription?</label>
+        <div class="faq-content">
+        <p>This is an example of faq item content. It will be shown when one item clicked. This is an example of faq item content. It will be shown when one item clicked</p>
+        </div>
+     </div><hr>
+     
+     <div class="faq-item">
+        <input type="checkbox" id="op5" name="options">
+        <label for="op5">How much does Headspace cost?</label>
+        <div class="faq-content">
+        <p>This is an example of faq item content. It will be shown when one item clicked. This is an example of faq item content. It will be shown when one item clicked</p>
+        </div>
+       </div><hr>
+     
+       <div class="faq-item">
+        <input type="checkbox" id="op6" name="options">
+        <label for="op6">Does my Headspace subscription automatically renew?</label>
+        <div class="faq-content">
+        <p>This is an example of faq item content. It will be shown when one item clicked. This is an example of faq item content. It will be shown when one item clicked</p>
+        </div>
+       </div><hr>
+     
+       <div class="faq-item">
+        <input type="checkbox" id="op7" name="options">
+        <label for="op7">How do I cancel my Headspace subscription?</label>
+        <div class="faq-content">
+        <p>This is an example of faq item content. It will be shown when one item clicked. This is an example of faq item content. It will be shown when one item clicked</p>
+        </div>
+       </div><hr>
+     
+       <div class="faq-item">
+        <input type="checkbox" id="op8" name="options">
+        <label for="op8">How can I support my team's mental health at work?</label>
+        <div class="faq-content">
+        <p>This is an example of faq item content. It will be shown when one item clicked. This is an example of faq item content. It will be shown when one item clicked</p>
+        </div>
+       </div>
+     
+     </div>
+     </div>
+         <!--ugyuygiy-->
+         <div class="subscon">
+            <div class="subtext">
+               <h2>Stay in the loop</h2>
+               <p>Be the first to get updates on our latest content, special offers, and new features</p>
+               <p>By signing up, you’re agreeing to receive marketing emails from Headspace. You can unsubscribe at any time. For more details, check out our Privacy Policy.</p>
+            </div>
+            <div class="subbtns">
+   <input type="email" placeholder="Enter Email">
+   
+               <md-filled-button>Subscribe</md-filled-button>
+            </div>   
+         </div>
+
+         <div id="footer">
+            <div id="footer-grid">
+              <div class="footer_col">
+              <h3 class="fh3">ASD Engine</h3>
+              <a href="" class="fa">Download</a>
+              <a href="" class="fa">Documentation</a>
+              <a href="" class="fa">Blog</a>
+              </div>
+              <div class="footer_col">
+              <h3 class="fh3">ASD Engine</h3>
+              <a href="" class="fa">Download</a>
+              <a href="" class="fa">Documentation</a>
+              <a href="" class="fa">Blog</a>
+              </div>
+              <div class="footer_col">
+              <h3 class="fh3">ASD Engine</h3>
+              <a href="" class="fa">Download</a>
+              <a href="" class="fa">Documentation</a>
+              <a href="" class="fa">Blog</a>  
+              </div>
+              <div class="footer_col">
+              <h3 class="fh3">ASD Engine</h3>
+              <a href="" class="fa">Download</a>
+              <a href="" class="fa">Documentation</a>
+              <a href="" class="fa">Blog</a> 
+              </div>
+            </div>
+            <p class="fw">Build by MT Himel</p>
+            </div>
+         </div>
+
+<!--Design ends here-->
+   <script src="main.js"></script>
+</body>
+</html>
+<!--2nd-->
+
